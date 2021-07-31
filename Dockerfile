@@ -1,7 +1,7 @@
 FROM python:3.8
-LABEL maintainer="Katie Gamanji"
+LABEL maintainer="azeem"
 
-COPY . /app
+COPY ../cicd-sample /app
 WORKDIR /app
 RUN pip install -r requirements.txt
 
